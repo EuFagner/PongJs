@@ -99,13 +99,13 @@ function movimentaRaqueteOponente() {
 }
 
 function incluiPlacar() {
-  fill("orange")
+  fill("white")
   rect(164, 8, 40, 25);
-  fill("white");
+  fill("black");
   text(meusPontos, 180, 25);
-  fill("orange");
-  rect(404, 8, 40, 25);
   fill("white");
+  rect(404, 8, 40, 25);
+  fill("");
   text(pontosOponente, 420, 25);
 }
 
