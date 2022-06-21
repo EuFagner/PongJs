@@ -16,8 +16,11 @@ var alturaRaquete = 90;
 
 // Variáveis raquete oponente
 var xRaqueteOponente = 585;
-var yRaqueteOponente = 150;
-var velocidadeRaqueteOponente;
+var yRaqueteOponente = 150; 
+
+// Variáveis dos pontos 
+var meusPontos = 0;
+var pontosOponente = 0;
 
 function setup() {
   createCanvas(600, 400);
@@ -83,5 +86,11 @@ function verificaColisaoRaqueteOponente() {
 }
 
 function movimentaRaqueteOponente() {
-  
+  if(keyIsDown(87)) {
+    yRaqueteOponente -= 10;
+  }
+
+  if(keyIsDown(83)) {
+    yRaqueteOponente += 10;
+  }
 }
