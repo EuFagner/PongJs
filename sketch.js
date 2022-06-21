@@ -38,6 +38,9 @@ function draw() {
   movimentaRaqueteOponente();
   verificaColisaoComMinhaRaquete();
   verificaColisaoRaqueteOponente();
+
+  incluiPlacar();
+  marcaPonto();
 }
 
 function mostraBolinha() {
@@ -92,5 +95,26 @@ function movimentaRaqueteOponente() {
 
   if(keyIsDown(83)) {
     yRaqueteOponente += 10;
+  }
+}
+
+function incluiPlacar() {
+  fill("orange")
+  rect(164, 8, 40, 25);
+  fill("white");
+  text(meusPontos, 180, 25);
+  fill("orange");
+  rect(404, 8, 40, 25);
+  fill("white");
+  text(pontosOponente, 420, 25);
+}
+
+function marcaPonto() {
+  if(xBolinha + raio > 587) {
+    meusPontos += 1;
+  }
+
+  if(xBolinha - raio < 7) {
+    
   }
 }
