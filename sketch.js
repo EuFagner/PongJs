@@ -16,7 +16,7 @@ var alturaRaquete = 90;
 
 // Variáveis raquete oponente
 var xRaqueteOponente = 585;
-var yRaqueteOponente = 100; 
+var yRaqueteOponente = 150; 
 
 // Variáveis dos pontos 
 var meusPontos = 0;
