@@ -5,8 +5,8 @@ var diametro = 30;
 var raio = diametro /2;
 
 // Velocidade da bolinha
-var velocidadeXBolinha = 7;
-var velocidadeYBolinha = 7;
+var velocidadeXBolinha = 8;
+var velocidadeYBolinha = 8;
 
 // Variáveis da raquete
 var xRaquete = 5;
