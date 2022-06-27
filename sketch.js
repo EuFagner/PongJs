@@ -40,7 +40,7 @@ function draw() {
   verificaColisaoRaqueteOponente();
 
   incluiPlacar();
-  mato();
+  marcaPonto();
 }
 
 function mostraBolinha() {
