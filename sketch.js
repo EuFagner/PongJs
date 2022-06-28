@@ -76,7 +76,6 @@ function movimentaMinhaRaquete() {
   }
 }
 
-
 function verificaColisaoComMinhaRaquete() {
   if(xBolinha - raio < xRaquete + comprimentoRaquete && yBolinha - raio < yRaquete + alturaRaquete && yBolinha > yRaquete) {
     velocidadeXBolinha *= -1;
