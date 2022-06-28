@@ -68,11 +68,14 @@ function mostraRaquete(x, y) {
 
 function movimentaMinhaRaquete() {
   if(keyIsDown(UP_ARROW)) {
+    yRaquete -= 10;
+  }
 
   if(keyIsDown(DOWN_ARROW)) {
     yRaquete += 10;
   }
 }
+
 
 function verificaColisaoComMinhaRaquete() {
   if(xBolinha - raio < xRaquete + comprimentoRaquete && yBolinha - raio < yRaquete + alturaRaquete && yBolinha > yRaquete) {
