@@ -105,7 +105,7 @@ function incluiPlacar() {
   text(meusPontos, 180, 25);
   fill("white");
   rect(404, 8, 40, 25);
-  fill("red");
+  fill("black");
   text(pontosOponente, 420, 25);
   fill("white");
 }
