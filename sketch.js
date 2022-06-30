@@ -39,7 +39,6 @@ function draw() {
   verificaColisaoComMinhaRaquete();
   verificaColisaoRaqueteOponente();
 
-
   incluiPlacar();
   marcaPonto();
 }
