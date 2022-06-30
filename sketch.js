@@ -121,5 +121,5 @@ function marcaPonto() {
 }
 
 function outraRaquete() {
-  
+  rect();
 }
