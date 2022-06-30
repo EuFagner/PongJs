@@ -38,7 +38,7 @@ function draw() {
   movimentaRaqueteOponente();
   verificaColisaoComMinhaRaquete();
   verificaColisaoRaqueteOponente();
-  mostraOutraRaquete();
+
 
   incluiPlacar();
   marcaPonto();
