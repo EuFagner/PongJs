@@ -119,3 +119,7 @@ function marcaPonto() {
     pontosOponente += 1;
   }
 }
+
+function outraRaquete() {
+  
+}
