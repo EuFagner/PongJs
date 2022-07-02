@@ -27,36 +27,7 @@ function setup() {
 }
 
 function draw() {
-  background("black");
-  mostraBolinha();
-  movimentaBolinha();
-  verificaColisaoComBorda();
-
-  mostraRaquete(xRaquete, yRaquete);
-  mostraRaquete(xRaqueteOponente, yRaqueteOponente);
-  movimentaMinhaRaquete();
-  movimentaRaqueteOponente();
-  verificaColisaoComMinhaRaquete();
-  verificaColisaoRaqueteOponente();
-
-  incluiPlacar();
-  marcaPonto();
-}
-
-function mostraBolinha() {
-  circle(xBolinha, yBolinha, diametro);
-}
-
-function movimentaBolinha() {
-  xBolinha += velocidadeXBolinha;
-  yBolinha += velocidadeYBolinha;
-}
-
-function verificaColisaoComBorda() {
-  if(xBolinha + raio > width || xBolinha - raio < 0) {
-    velocidadeXBolinha *= -1;
-  }
-
+  ba
   if(yBolinha + raio > height || yBolinha - raio < 0) {
     velocidadeYBolinha *= -1;
   }
