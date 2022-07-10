@@ -112,7 +112,7 @@ function incluiPlacar() {
 
 function marcaPonto() {
   if(xBolinha + raio > 595) {
-    meusPontos += 1;
+    meusPontos += 10;
   }
 
   if(xBolinha - raio < 5) {
