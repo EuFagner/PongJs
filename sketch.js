@@ -99,15 +99,15 @@ function movimentaRaqueteOponente() {
 }
 
 function incluiPlacar() {
-  fill("");
+  fill("white");
   rect(164, 8, 40, 25);
   fill("black");
   text(meusPontos, 180, 25);
-  fill("yellow");
+  fill("white");
   rect(404, 8, 40, 25);
   fill("black");
   text(pontosOponente, 420, 25);
-  fill("red");
+  fill("white");
 }
 
 function marcaPonto() {
@@ -116,6 +116,6 @@ function marcaPonto() {
   }
 
   if(xBolinha - raio < 5) {
-    pontosOponente += 1;
+    pontosOponente += 10;
   }
 }
