@@ -103,7 +103,7 @@ function incluiPlacar() {
   rect(164, 8, 40, 25);
   fill("black");
   text(meusPontos, 180, 25);
-  fill("white");
+  fill("yellow");
   rect(404, 8, 40, 25);
   fill("black");
   text(pontosOponente, 420, 25);
