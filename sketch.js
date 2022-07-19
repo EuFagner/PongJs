@@ -89,7 +89,7 @@ function verificaColisaoRaqueteOponente() {
 }
 
 function movimentaRaqueteOponente() {
-  if(keyIsDown(87)) {
+  if(keyIsDown(55)) {
     yRaqueteOponente -= 10;
   }
 
