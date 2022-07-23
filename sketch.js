@@ -116,6 +116,6 @@ function marcaPonto() {
   }
 
   if(xBolinha - raio < 5) {
-    pontosOponente += 5;
+    pontosOponente += 1;
   }
 }
