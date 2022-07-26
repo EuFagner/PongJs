@@ -94,7 +94,7 @@ function movimentaRaqueteOponente() {
   }
 
   if(keyIsDown(83)) {
-    yRaqueteOponente += 5;
+    yRaqueteOponente += 10;
   }
 }
 
